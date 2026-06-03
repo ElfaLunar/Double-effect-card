@@ -21,7 +21,7 @@ body{
   width: 300px;
   height: 200px;
   background-color: #333;
-  diplay: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -30,13 +30,13 @@ body{
   z-index: 1;
 }
 
-.card:hover.face1{
+.card:hover .face1{
   background-color: #ff0057;
   transform: translateY(0);
 }
 
 .face2{
-  poition: relative;
+  position: relative;
   width: 300px;
   height: 200px;
   background-color: white;
@@ -51,7 +51,7 @@ body{
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
 }
 
-.card:hover.face2{
+.card:hover .face2{
   transform: translateY(0);
 }
 
@@ -60,7 +60,7 @@ body{
   transition: 0.5s;
 }
 
-.card:hover.imgbox{
+.card:hover .imgbox{
   opacity: 1;
 }
 
